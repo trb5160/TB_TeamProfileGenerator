@@ -1,5 +1,5 @@
 {
-  "name": "teamprofilegenerator",
+  "name": "TB_TeamProfileGenerator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trb5160/TeamProfileGenerator.git"
+    "url": "git+https://github.com/trb5160/TB_TeamProfileGenerator.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/trb5160/TeamProfileGenerator/issues"
+    "url": "https://github.com/trb5160/TB_TeamProfileGenerator/issues"
   },
-  "homepage": "https://github.com/trb5160/TeamProfileGenerator#readme"
+  "homepage": "https://github.com/trb5160/TB_TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
 }
