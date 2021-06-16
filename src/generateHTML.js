@@ -10,10 +10,10 @@ const generateHTML = (teamMembers) => {
         <title>Team Profile Generator</title>
     </head>
     <body>
-        <header class="jumbotron bg-danger">
-            <h1 class="display-3" style="text-align: center;">My Team</h1>
-        </header>
-        <div class="card-ctn">
+        <nav class="navbar navbar-dark bg-dark mb-5">
+        <span class="navbar-brand mb-0 h1 w-100 text-center">Team Profile</span>
+        </nav>
+        <div class="card mx-auto mb-3" style="width: 18rem">
             <div class="row">
                 ${generateTeam(teamMembers)}
             </div>
