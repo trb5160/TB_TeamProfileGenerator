@@ -48,7 +48,7 @@ const generateHTML = (teamMembers) => {
     
     const generateManager = (manager) => {
         return  `
-                <div class="card bg-info mb-3" style="max-width: 20rem;">
+            <div class="card mx-auto mb-3" style="width: 18rem">
                     <div class="card-header">
                         <h2>${manager.getName()}</h2>
                         <h4><i class="fas fa-mug-hot"> ${manager.getRole()}</i></h4>
@@ -68,7 +68,7 @@ const generateHTML = (teamMembers) => {
     
     const generateEngineer = (engineer) => {
         return  `
-                <div class="card mx-auto mb-3" style="max-width: 20rem;">
+            <div class="card mx-auto mb-3" style="width: 18rem">
                     <div class="card-header">
                         <h2>${engineer.getName()}</h2>
                         <h4><i class="fas fa-glasses"> ${engineer.getRole()}</i></h4>
@@ -88,7 +88,7 @@ const generateHTML = (teamMembers) => {
     
     const generateIntern = (intern) => {
         return  `
-                <div class="card mx-auto mb-3" style="max-width: 20rem;">
+            <div class="card mx-auto mb-3" style="width: 18rem">
                     <div class="card-header">
                         <h2>${intern.getName()}</h2>
                         <h4><i class="fas fa-user-graduate"> ${intern.getRole()}</i></h4>
